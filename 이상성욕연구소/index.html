@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정환희의 이상성욕 연구소 | 이상성욕 분석 및 연구의 선두주자</title>
+    <meta name="description" content="정환희의 이상성욕 연구소에서 이상성욕 분석, 심리 연구, 행동 패턴 분석 등 전문적인 이상성욕 연구 결과를 만나보세요. 당신의 이해를 혁신합니다.">
+    <meta name="keywords" content="정환희의 이상성욕 연구소, 이상성욕 분석, 심리 연구, 행동 패턴, 이상성욕 연구, 데이터 분석, 심리학, 이상성욕 팁">
+    
+    <!-- Open Graph 태그 -->
+    <meta property="og:title" content="정환희의 이상성욕 연구소 | 이상성욕 분석 및 연구의 선두주자">
+    <meta property="og:description" content="정환희의 이상성욕 연구소에서 이상성욕 분석, 심리 연구, 행동 패턴 분석 등 전문적인 이상성욕 연구 결과를 만나보세요.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="logo2.png" alt="정환희의 이상성욕 연구소 로고" class="logo-img">
+                    <span class="logo-text">정환희의 이상성욕 연구소</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#about" class="nav-link">소개</a>
+                    <a href="#research" class="nav-link">연구 분야</a>
+                    <a href="#contact" class="nav-link">문의</a>
+                    <a href="#" class="nav-link" id="favorites-btn">즐겨찾기</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <!-- 히어로 섹션 -->
+        <section class="hero" id="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">이상성욕, 깊이를 더하다: 정환희의 이상성욕 연구소</h1>
+                <p class="hero-subtitle">정확한 데이터 분석과 심리 연구로 당신의 이상성욕 이해를 혁신합니다.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button" onclick="scrollToSection('#contact')">지금 바로 체험하기</button>
+                    <button class="secondary-button" onclick="goToWarThunderLab()">워썬더 연구소 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 소개 섹션 -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">소개</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>정환희의 이상성욕 연구소</h3>
+                        <p>정환희의 이상성욕 연구소는 이상성욕의 심리적 분석과 데이터 기반 연구를 통해 인간의 복잡한 성적 행동과 욕구를 이해하는 것을 목표로 설립되었습니다.</p>
+                        <p>우리는 심리학적 접근부터 행동 패턴 분석까지, 이상성욕의 모든 영역에서 정확한 데이터 분석과 과학적 인사이트를 제공합니다. 단순한 관찰을 넘어서, 체계적 연구를 통해 인간의 성적 욕구를 더 깊이 이해해나갑니다.</p>
+                        <div class="values">
+                            <div class="value-item">
+                                <h4>과학성</h4>
+                                <p>데이터 기반의 과학적 분석</p>
+                            </div>
+                            <div class="value-item">
+                                <h4>이해</h4>
+                                <p>편견 없는 객관적 연구</p>
+                            </div>
+                            <div class="value-item">
+                                <h4>전문성</h4>
+                                <p>이상성욕 전문 지식</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연구 분야 섹션 -->
+        <section class="research" id="research">
+            <div class="container">
+                <h2 class="section-title">연구 분야</h2>
+                <div class="research-grid">
+                    <div class="research-card" data-id="psychology-analysis">
+                        <div class="card-icon">🧠</div>
+                        <h3>심리학적 분석</h3>
+                        <p>이상성욕의 심리적 원인과 발달 과정을 과학적으로 분석하여 인간의 성적 욕구를 이해합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('psychology-analysis')">관심 등록</button>
+                    </div>
+                    
+                    <div class="research-card" data-id="behavior-pattern">
+                        <div class="card-icon">📊</div>
+                        <h3>행동 패턴 연구</h3>
+                        <p>이상성욕과 관련된 행동 패턴을 데이터로 분석하여 예측 모델을 개발합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('behavior-pattern')">관심 등록</button>
+                    </div>
+                    
+                    <div class="research-card" data-id="social-impact">
+                        <div class="card-icon">🌍</div>
+                        <h3>사회적 영향 분석</h3>
+                        <p>이상성욕이 개인과 사회에 미치는 영향을 체계적으로 연구합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('social-impact')">관심 등록</button>
+                    </div>
+                    
+                    <div class="research-card" data-id="treatment-methods">
+                        <div class="card-icon">💊</div>
+                        <h3>치료 방법 연구</h3>
+                        <p>이상성욕과 관련된 다양한 치료 방법과 개입 전략을 연구합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('treatment-methods')">관심 등록</button>
+                    </div>
+                    
+                    <div class="research-card" data-id="data-collection">
+                        <div class="card-icon">📈</div>
+                        <h3>데이터 수집 분석</h3>
+                        <p>대규모 데이터를 수집하고 분석하여 이상성욕의 통계적 특성을 파악합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('data-collection')">관심 등록</button>
+                    </div>
+                    
+                    <div class="research-card" data-id="prevention-strategy">
+                        <div class="card-icon">🛡️</div>
+                        <h3>예방 전략 개발</h3>
+                        <p>이상성욕과 관련된 문제를 예방할 수 있는 전략과 교육 방법을 개발합니다.</p>
+                        <button class="interest-btn" onclick="toggleInterest('prevention-strategy')">관심 등록</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 문의 섹션 -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">문의</h2>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">이름</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">이메일</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">메시지</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">문의하기</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>연락처 정보</h3>
+                        <p><strong>이메일:</strong> contact@abnormal-sexuality-lab.com</p>
+                        <p><strong>연구소 위치:</strong> 서울특별시</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">YouTube</a>
+                            <a href="#" class="social-link">Discord</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jeong Hwan-hee Abnormal Sexuality Lab. All Rights Reserved.</p>
+            <a href="#" class="privacy-link">개인정보 처리방침</a>
+        </div>
+    </footer>
+
+    <!-- 즐겨찾기 모달 -->
+    <div class="modal" id="favorites-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>즐겨찾기</h3>
+                <span class="close" id="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="favorites-list">
+                    <!-- 즐겨찾기 항목들이 여기에 동적으로 추가됩니다 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
